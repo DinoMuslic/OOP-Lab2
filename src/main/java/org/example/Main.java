@@ -21,6 +21,17 @@ public class Main {
             }
         }
 
+        System.out.println("The secret is: " + pass);
 
+        //Task 2
+        int sum = 0;
+
+        System.out.print("Type the first number: ");
+        sum += reader.nextInt();
+        System.out.print("Type the second number: ");
+        sum += reader.nextInt();
+        System.out.print("Type the third number: ");
+        sum += reader.nextInt();
+        System.out.println("Sum: " + sum);
     }
 }
