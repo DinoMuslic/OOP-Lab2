@@ -15,7 +15,7 @@ public class Main {
             System.out.print("Type the password: ");
             String answer = reader.nextLine();
             if(Objects.equals(pass, answer)) {
-                System.out.println("Righ!");
+                System.out.println("Right!");
                 break;
             } else {
                 System.out.println("Wrong!");
