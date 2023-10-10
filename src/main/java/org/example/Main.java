@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // Task 1
-
         Scanner reader = new Scanner(System.in);
         System.out.print("Enter a password: ");
         String pass = reader.nextLine();
